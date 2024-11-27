@@ -36,7 +36,7 @@
                     <td>{{ user[2] }}</td>
                     <td>{{ user[3] }}</td>
                     <td>
-                        <button class="btn btn-success"><i class="bi bi-pencil"></i> Edit</button>
+                        <a href="/update/{{user[0]}}" class="btn btn-success"><i class="bi bi-pencil"></i> Edit</a>
                         <button class="btn btn-danger btn-remove" data-bs-toggle="modal" data-remove-id="{{ user[0] }}" href="#exampleModalToggle" role="button"><i class="bi bi-trash"></i> Delete</button>
                     </td>
                 </tr>
